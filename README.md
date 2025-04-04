@@ -25,6 +25,7 @@ Rentify is a comprehensive property rental platform that connects property owner
 
 
 ## Project Structure
+```plaintext
 rentify/
 ├── backend/
 │   ├── controllers/
@@ -43,6 +44,7 @@ rentify/
 │   ├── index.html
 │   └── vite.config.js
 └── README.md
+```
 ## Tech Stack
 ### Frontend
 - React.js
