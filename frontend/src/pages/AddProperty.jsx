@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa"
 import axios from "axios"
 import toast from "react-hot-toast"
+import API_URL from '../config/api';
 
 function AddProperty({ user }) {
   const [formData, setFormData] = useState({

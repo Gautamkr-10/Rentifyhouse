@@ -9,6 +9,7 @@ import Pagination from "../components/Pagination"
 import { FaSearch } from "react-icons/fa"
 import { motion } from "framer-motion"
 
+
 // Sample Indian properties data
 const sampleProperties = [
   {

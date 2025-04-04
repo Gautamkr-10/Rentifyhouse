@@ -6,6 +6,7 @@ import { FaBell, FaUser, FaEnvelope, FaPhone, FaHome } from "react-icons/fa"
 import axios from "axios"
 import toast from "react-hot-toast"
 import Pagination from "../components/Pagination"
+import API_URL from '../config/api';
 
 function InterestedBuyers({ user }) {
   const [interests, setInterests] = useState([])

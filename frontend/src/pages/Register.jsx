@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { FaUser, FaEnvelope, FaPhone, FaLock, FaUserPlus } from "react-icons/fa"
 import axios from "axios"
 import toast from "react-hot-toast"
+import API_URL from '../config/api';
 
 function Register({ setUser }) {
   const [formData, setFormData] = useState({

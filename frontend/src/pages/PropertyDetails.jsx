@@ -17,6 +17,7 @@ import {
 } from "react-icons/fa"
 import axios from "axios"
 import toast from "react-hot-toast"
+import API_URL from '../config/api';
 
 function PropertyDetails({ user }) {
   const { id } = useParams()

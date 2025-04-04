@@ -7,6 +7,7 @@ import axios from "axios"
 import toast from "react-hot-toast"
 import PropertyCard from "../components/PropertyCard"
 import Pagination from "../components/Pagination"
+import API_URL from '../config/api';
 
 function SellerDashboard({ user }) {
   const [properties, setProperties] = useState([])
