@@ -37,7 +37,7 @@ function PropertyDetails({ user }) {
 
   const fetchPropertyDetails = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/properties/${id}`, {
+      const response = await axios.get(`https://rentifyhouse-1.onrender.com/api/properties/${id}`, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
@@ -63,7 +63,7 @@ function PropertyDetails({ user }) {
 
   const fetchSellerInfo = async () => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/properties/${id}/seller`, {
+      const response = await axios.get(`https://rentifyhouse-1.onrender.com/api/properties/${id}/seller`, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
@@ -82,7 +82,7 @@ function PropertyDetails({ user }) {
 
     try {
       await axios.post(
-        `http://localhost:5000/api/properties/${id}/interest`,
+        `https://rentifyhouse-1.onrender.com/api/properties/${id}/interest`,
         {},
         {
           headers: {
@@ -104,7 +104,7 @@ function PropertyDetails({ user }) {
   const handleLike = async () => {
     try {
       const response = await axios.post(
-        `http://localhost:5000/api/properties/${id}/like`,
+        `https://rentifyhouse-1.onrender.com/api/properties/${id}/like`,
         {},
         {
           headers: {

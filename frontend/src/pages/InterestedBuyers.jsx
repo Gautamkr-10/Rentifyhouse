@@ -23,7 +23,7 @@ function InterestedBuyers({ user }) {
   const fetchInterestedBuyers = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/interests?page=${currentPage}&limit=${interestsPerPage}`,
+        `https://rentifyhouse-1.onrender.com/api/interests?page=${currentPage}&limit=${interestsPerPage}`,
         {
           headers: {
             Authorization: `Bearer ${user.token}`,

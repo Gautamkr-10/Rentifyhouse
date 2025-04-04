@@ -35,7 +35,7 @@ function SellerDashboard({ user }) {
   const fetchProperties = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/properties/seller?page=${currentPage}&limit=${propertiesPerPage}`,
+        `https://rentifyhouse-1.onrender.com/api/properties/seller?page=${currentPage}&limit=${propertiesPerPage}`,
         {
           headers: {
             Authorization: `Bearer ${user.token}`,
@@ -54,7 +54,7 @@ function SellerDashboard({ user }) {
 
   const fetchNotifications = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/notifications", {
+      const response = await axios.get("https://rentifyhouse-1.onrender.com/api/notifications", {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
@@ -74,7 +74,7 @@ function SellerDashboard({ user }) {
 
   const handleDelete = async (propertyId) => {
     try {
-      await axios.delete(`http://localhost:5000/api/properties/${propertyId}`, {
+      await axios.delete(`https://rentifyhouse-1.onrender.com/api/properties/${propertyId}`, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
@@ -96,7 +96,7 @@ function SellerDashboard({ user }) {
   const markNotificationAsRead = async (notificationId) => {
     try {
       await axios.put(
-        `http://localhost:5000/api/notifications/${notificationId}/read`,
+        `https://rentifyhouse-1.onrender.com/api/notifications/${notificationId}/read`,
         {},
         {
           headers: {

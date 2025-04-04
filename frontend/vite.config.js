@@ -12,7 +12,7 @@ export default defineConfig({
     open: true, // Open browser automatically
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://rentifyhouse-1.onrender.com",
         changeOrigin: true,
       },
     },
