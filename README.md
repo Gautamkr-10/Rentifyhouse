@@ -107,8 +107,8 @@ Open your browser and navigate to `http://localhost:5173`
 
 . Clone the repository
 ```bash
-git clone https://github.com/yourusername/rentify.git
-cd rentify
+git clone https://github.com/yourusername/rentifyhouse.git
+cd rentifyhouse
 ```
 ## Environment Variables
 
@@ -123,9 +123,9 @@ To run this project, you will need to add the following environment variables to
 
 ## Screenshots
 
-![Landing page](https://drive.google.com/file/d/1FwtZcmg-OwNnYlqRRoSLuhUiZSYtsOoa/view?usp=drive_link)
-![Select Cities](https://drive.google.com/file/d/1KvVFhEEjMPlECDnBMQYu8IFWrCrMI_r4/view?usp=drive_link)
-![Property List](https://drive.google.com/file/d/19ooaB6JC9qjNgbnKUX6Ivib07bagNzhJ/view?usp=drive_link)
+![Landing page](![image](https://github.com/user-attachments/assets/338e86b6-17dc-4994-957c-1934597d6b39)
+![Select Cities](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20122539.png)
+![Property List](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20125448.png)
 
 
 
