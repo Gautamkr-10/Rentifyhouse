@@ -42,7 +42,7 @@ function EditProperty({ user }) {
 
   const fetchProperty = async () => {
     try {
-      const response = await axios.get(`https://rentifyhouse-1.onrender.com/api/properties/${id}`, {
+      const response = await axios.get(`${API_URL}/api/properties/${id}`, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
@@ -124,7 +124,7 @@ function EditProperty({ user }) {
     setSubmitting(true)
 
     try {
-      await axios.put(`https://rentifyhouse-1.onrender.com/api/properties/${id}`, formData, {
+      await axios.put(`${API_URL}/api/properties/${id}`, formData, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },

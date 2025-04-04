@@ -33,7 +33,7 @@ function InterestedProperties({ user }) {
   const fetchInterestedProperties = async () => {
     try {
       const response = await axios.get(
-        `https://rentifyhouse-1.onrender.com/api/properties/interested?page=${currentPage}&limit=${propertiesPerPage}`,
+        `${API_URL}/api/properties/interested?page=${currentPage}&limit=${propertiesPerPage}`,
         {
           headers: {
             Authorization: `Bearer ${user.token}`,

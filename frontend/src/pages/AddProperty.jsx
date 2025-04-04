@@ -103,7 +103,7 @@ function AddProperty({ user }) {
     setLoading(true)
 
     try {
-      await axios.post("https://rentifyhouse-1.onrender.com/api/properties", formData, {
+      await axios.post("${API_URL}/api/properties", formData, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
