@@ -3,6 +3,13 @@ Rentify - Property Rental Platform
 
 Rentify is a comprehensive property rental platform that connects property owners with potential tenants. The application provides a seamless experience for both parties, allowing owners to list their properties and tenants to browse and express interest in available rentals.
 
+## Screenshots
+
+![Landing page](![image](https://github.com/user-attachments/assets/338e86b6-17dc-4994-957c-1934597d6b39)
+![Select Cities](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20122539.png)
+![Property List](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20125448.png)
+
+
 ## Features
 ### For Property Owners
 
@@ -121,15 +128,6 @@ To run this project, you will need to add the following environment variables to
 `MONGODB_URI`
 
 `JWT_SECRET`
-
-
-## Screenshots
-
-![Landing page](![image](https://github.com/user-attachments/assets/338e86b6-17dc-4994-957c-1934597d6b39)
-![Select Cities](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20122539.png)
-![Property List](https://github.com/Gautamkr-10/Rentifyhouse/blob/a4278a6dfbdd0b45b1f32a62f628cb207f92a88b/Screenshot%202025-04-04%20125448.png)
-
-
 
 
 ## License
