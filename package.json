@@ -38,7 +38,6 @@
     "@radix-ui/react-toggle-group": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.6",
     "@vitejs/plugin-react": "latest",
-    "autoprefixer": "^10.4.21",
     "axios": "latest",
     "bcryptjs": "latest",
     "class-variance-authority": "^0.7.1",
@@ -73,6 +72,7 @@
     "sonner": "^1.7.1",
     "stylus": "latest",
     "sugarss": "latest",
+    "tailwind": "^2.3.1",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7",
     "terser": "latest",
@@ -86,6 +86,7 @@
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.21",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
