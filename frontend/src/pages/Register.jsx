@@ -84,7 +84,7 @@ function Register({ setUser }) {
     setLoading(true)
 
     try {
-      const response = await axios.post("${API_URL}/api/users/register", formData)
+      const response = await axios.post(`${API_URL}/api/users/register`, formData)
       const userData = response.data
 
       localStorage.setItem("user", JSON.stringify(userData))

@@ -59,7 +59,7 @@ function Login({ setUser }) {
     setLoading(true)
 
     try {
-      const response = await axios.post("${API_URL}/api/users/login", formData)
+      const response = await axios.post(`${API_URL}/api/users/login`, formData)
       const userData = response.data
 
       localStorage.setItem("user", JSON.stringify(userData))

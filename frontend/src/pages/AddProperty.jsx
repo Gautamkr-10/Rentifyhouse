@@ -104,7 +104,7 @@ function AddProperty({ user }) {
     setLoading(true)
 
     try {
-      await axios.post("${API_URL}/api/properties", formData, {
+      await axios.post(`${API_URL}/api/properties`, formData, {
         headers: {
           Authorization: `Bearer ${user.token}`,
         },
